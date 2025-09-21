@@ -55,7 +55,5 @@ mvn clean package
 
 java -jar target/testing-1.0-SNAPSHOT.jar
 
-# Контакты: 
 
-## Чеботарева Виктория Сергеевна 
 
