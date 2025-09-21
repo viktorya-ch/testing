@@ -21,9 +21,7 @@ java -jar target/flight-filtering-service.jar
 testing/
 
 ├── src/
-
 │   ├── main/
-
 │   │   └── java/
 
 │   │       └── com/
