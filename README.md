@@ -19,31 +19,57 @@ java -jar target/flight-filtering-service.jar
 ## Структура проекта
 
 testing/
+
 ├── src/
+
 │   ├── main/
+
 │   │   └── java/
+
 │   │       └── com/
+
 │   │           └── gridnine/
+
 │   │               └── testing/
+
 │   │                   ├── Flight.java               # Модель перелёта   
-│   │                   ├── FlightFilter.java         # Основной класс фильтрации       
+
+│   │                   ├── FlightFilter.java         # Основной класс фильтрации   
+
 │   │                   ├── FlightBuilder.java        # Фабрика тестовых данных
+
 │   │                   ├── FilterRule.java           # Интерфейс правил фильтрации
+
 │   │                   ├── DepartureBeforeCurrentTimeFilter.java      # Правило 1  
+
 │   │                   ├── ArrivalBeforeDepartureFilter.java          # Правило 2
+
 │   │                   ├── ExcessiveGroundTimeFilter.java             # Правило 3
+
 │   │                   ├── FlightPrinter.java        # Утилита форматирования вывода
+
 │   │                   ├── FilterRules.java          # Фабрика комбинированных правил
+
 │   │                   ├── Segment.java              # Модель сегмента перелёта
+
 │   │                   └── Main.java                 # Точка входа приложения
+
 │   └── test/
+
 │       └── java/
+
 │           └── com/
+
 │               └── gridnine/
+
 │                   └── testing/
+
 │                       └── FlightFilterTest.java     # Юнит-тесты
+
 ├── pom.xml                                           # Maven конфигурация
+
 ├── .gitignore                                        # Исключения Git
+
 └── README.md                                         # Документация
 
 # Установка
